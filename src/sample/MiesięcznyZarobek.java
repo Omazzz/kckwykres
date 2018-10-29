@@ -2,16 +2,16 @@ package sample;
 
 public class MiesięcznyZarobek {
 
-    private String miesiac;
+    private String month;
     private String zarobki;
 
     MiesięcznyZarobek(String miesiac, String zarobki){
-        this.miesiac = miesiac;
+        this.month = miesiac;
         this.zarobki = zarobki;
     }
 
     public String getMiesiac() {
-        return miesiac;
+        return month;
     }
 
     public String getZarobki() {
